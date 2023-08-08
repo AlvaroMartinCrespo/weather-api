@@ -10,7 +10,7 @@ function App() {
           <h1 className="text-center flex items-center gap-1 justify-center">
             <span className="text-3xl font-bold">Weather</span>
             <span>
-              <img className="w-10" src="../public/icons/weather.png" alt="weather-icon" />
+              <img className="w-10" src="icons/weather.png" alt="weather-icon" />
             </span>
             <span className="text-3xl font-bold">App</span>
           </h1>
