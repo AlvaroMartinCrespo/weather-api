@@ -5,7 +5,7 @@ import Weather from './components/Weather';
 function App() {
   return (
     <>
-      <Layout title="inicio">
+      <Layout title="Tiempo">
         <section className="container mx-auto py-10">
           <h1 className="text-center flex items-center gap-1 justify-center">
             <span className="text-3xl font-bold">Weather</span>
