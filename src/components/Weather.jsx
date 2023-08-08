@@ -57,14 +57,20 @@ export default function Weather() {
         <>
           {city && weather ? (
             <>
-              <section className="flex items-center flex-col">
+              <section className="flex items-center flex-col ">
                 <h1 className="text-center my-2">
                   {weather.location.name}, {weather.location.region} ({weather.location.country})
                 </h1>
                 <h2 className="font-bold">{weather.location.localtime}</h2>
                 <img className="w-20" src={weather.current.condition.icon} alt={weather.current.condition.text} />
                 {/* <span>{weather.current.condition.text}</span> */}
-                <h2 className="font-bold text-4xl my-2">{weather.current.temp_c}°C</h2>
+                <h2 className="font-bold text-4xl mb-5">{weather.current.temp_c}°C</h2>
+                <div className="flex flex-col">
+                  <span>Humedad: {weather.current.humidity}%</span>
+                  <span>Presión: {weather.current.pressure_mb}</span>
+                  <span>Viento: {weather.current.wind_kph} km/h</span>
+                  <span>Precipitaciones: {weather.current.precip_mm} mm</span>
+                </div>
               </section>
               <div className="flex justify-center mt-10">
                 <button
