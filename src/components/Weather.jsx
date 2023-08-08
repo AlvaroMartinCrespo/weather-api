@@ -28,7 +28,7 @@ export default function Weather() {
     // Fetch
     try {
       const request = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=eaf2898ffb444f4097373555230808&q=${data.city}`
+        `https://api.weatherapi.com/v1/current.json?key=eaf2898ffb444f4097373555230808&q=${data.city}`
       );
       const response = await request.json();
       setTimeout(() => {
