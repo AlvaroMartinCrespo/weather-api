@@ -9,23 +9,21 @@ Demo [aquí](https://weather-api-eta-rose.vercel.app/).
 
 ## Capturas de pantalla
 
-![Captura de pantalla 1](public/img/screenshots/cap1.png)
-![Captura de pantalla 2](public/img/screenshots/cap2.png)
-![Captura de pantalla 2](public/img/screenshots/cap3.png)
+![Captura de pantalla 1](public/cap/cap1.png)
+![Captura de pantalla 2](public/cap/cap2.png)
+![Captura de pantalla 2](public/cap/cap3.png)
 
-## Características
+## Characteristics
 
-- Diseño moderno y atractivo.
-- Totalmente responsivo y compatible con diferentes dispositivos.
-- Fácil navegación y estructura intuitiva.
-- Sección de proyectos destacados.
-- Información sobre mi experiencia y habilidades.
-- Descarga de Curriculum
+- Modern and attractive design.
+- Completely responsive and compatible with different devices.
+- Easy navigation and intuitive structure.
 
-## Tecnologías utilizadas
 
-- ReactJS: Biblioteca de JavaScript para la construcción de interfaces de usuario.
-- Tailwind CSS: Framework de CSS de utilidades para estilizar el proyecto.
+## Used Technologies
+
+- ReactJS: JavaScript library for building user interfaces.
+- Tailwind CSS: Utility CSS framework for styling the project.
 
 ## Instalación
 
