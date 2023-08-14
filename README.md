@@ -1,6 +1,7 @@
 # Weather API
 
-About
+## About
+
 Discover real-time weather conditions for any city worldwide with our intuitive weather search platform. Simply enter the name of the city you're interested in, and instantly access up-to-date temperature, humidity, wind speed, and more.
 
 ## Demo
