@@ -37,7 +37,7 @@ Demo [aquí](https://weather-api-eta-rose.vercel.app/).
    ```
 4. Una vez finalizada la instalación, ejecuta el siguiente comando para iniciar la aplicación:
      ```shell
-   npm start
+   npm run dev
    ```
 5. Abre tu navegador y visita el puerto que te de por defecto, en mi caso; http://localhost:3000 para ver el portfolio en tu entorno local.
 
